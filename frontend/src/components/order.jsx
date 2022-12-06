@@ -42,6 +42,7 @@ const Component = () => {
                         status: +status,
                         hotel_id: +id,
                         room_id: +s,
+                        user_id: +user.id,
                     },
                     { headers: authHeader() }
                 )
