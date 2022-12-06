@@ -17,6 +17,7 @@ exports.create = (req, res) => {
     status: req.body.status,
     hotel_id: req.body.hotel_id,
     room_id: req.body.room_id,
+    user_id: req.body.user_id,
   };
 
   // Save Order in the database
