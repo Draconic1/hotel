@@ -10,7 +10,7 @@ git clone https://github.com/Draconic1/lizalab.git<br>
     http://127.0.0.1:8080/<br>
 
 2. Запуск админки на сервере<br>
-    cd<br>
+    cd backend<br>
     npm start mysql-admin (на mysql не обращай внимания, работает с sqlite)<br>
     http://127.0.0.1:8082/ <br>
     юзернейм admin<br>
