@@ -2,24 +2,24 @@
 git init<br>
 git clone https://github.com/Draconic1/lizalab.git<br>
 
-Для запуска нужно открыть три терминала
+Для запуска нужно открыть три терминала<br>
 
-1. Запуск сервера
-cd backend
-npm start
-http://127.0.0.1:8080/
+1. Запуск сервера<br>
+    cd backend<br>
+    npm start<br>
+    http://127.0.0.1:8080/<br>
 
-2. Запуск админки на сервере
-cd
-npm start mysql-admin (на mysql не обращай внимания, работает с sqlite)
-http://127.0.0.1:8082/ 
-юзернейм admin
-пароль QQqq22
+2. Запуск админки на сервере<br>
+    cd<br>
+    npm start mysql-admin (на mysql не обращай внимания, работает с sqlite)<br>
+    http://127.0.0.1:8082/ <br>
+    юзернейм admin<br>
+    пароль QQqq22<br>
 
-3. Запуск фронтенда
-cd frontend
-npm start
-http://localhost:3000/
+3. Запуск фронтенда<br>
+    cd frontend<br>
+    npm start<br>
+    http://localhost:3000/<br>
     
-пользователь admin
-пароль admin
+    пользователь admin<br>
+    пароль admin<br>
