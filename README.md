@@ -1,6 +1,6 @@
-Перенос проекта на свой комп:
-git init
-git clone https://github.com/Draconic1/lizalab.git
+Перенос проекта на свой комп:<br>
+git init<br>
+git clone https://github.com/Draconic1/lizalab.git<br>
 
 Для запуска нужно открыть три терминала
 
