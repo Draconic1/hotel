@@ -17,7 +17,7 @@ exports.create = (req, res) => {
     status: req.body.status,
     hotel_id: req.body.hotel_id,
     room_id: req.body.room_id,
-    user_id: req.body.user_id,
+    user_id: req.userId,
   };
 
   // Save Order in the database
@@ -34,7 +34,17 @@ exports.create = (req, res) => {
 
 // Retrieve all Order from the database.
 exports.findAll = (req, res) => {
-  Order.findAll()
+  const isAll = !!req.query.all;
+
+  const search = isAll
+      ? undefined
+      : {
+        where: {
+          user_id: req.userId,
+        },
+      };
+
+  Order.findAll(search)
     .then((data) => {
       res.send(data);
     })
